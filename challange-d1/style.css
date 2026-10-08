@@ -1,0 +1,177 @@
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+     
+      body {
+         margin: 0;
+         padding: 0;
+         overflow: auto;
+      }
+
+      *{
+         box-sizing: border-box;
+      }
+
+      body {
+         font-family: "Roboto", sans-serif;
+      }
+
+      main{
+         width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+      }
+      img {
+         height: 200px;
+         width: 200px;
+         border-radius: 50%;
+         float: left;
+      }
+
+      .sottotitolo{
+         clear: both;
+      }
+
+      .presentazione::first-letter{
+         font-weight: bold;
+         font-size: 2.5em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      h1{
+         margin: 0;
+         text-align: center;
+         padding-top: 150px;
+      }
+      #inizio {
+         color: white;
+      }
+
+      header {
+         background-image: url(assett/header-bg.jpg);
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         min-height: 400px
+      }
+
+      #start {
+         height: 100%
+      }
+
+      nav {
+         height: 100%;
+         width: 100%;
+      }
+
+      #section {
+         text-align: center;
+         line-height: 50px;
+      }
+
+      h2,
+      h3 {
+         color: #1F3D7A;
+
+      }
+
+
+
+      .studente {
+         color: #F44A4A;
+         text-align: center;
+         margin-top: 30;
+      }
+
+      .glossario {
+         color: white;
+         text-align: center;
+         width: 100%;
+         line-height: 80px;
+         padding-top: 60px;
+
+      }
+
+
+      footer {
+         background-color: #172136;
+         color: white;
+         text-align: center;
+      }
+
+      .presentazione {
+         color: blue;
+      }
+
+      #Nome:focus {
+         background-color: black;
+         color: white;
+      }
+
+      #email:focus {
+         background-color: black;
+         color: white;
+      }
+
+      #messaggio:focus {
+         background-color: black;
+         color: white;
+      }
+
+      label {
+         color: #1F3D7A;
+      }
+
+      button {
+         background-color: hsl(220, 60%, 30%);
+         color: hsl(220, 60%, 30%);
+         width: 100%;
+      }
+
+      ul {
+         list-style-type: none;
+      }
+
+      nav ul li{
+         display: inline-block;
+      }
+
+      nav a {
+         color: #F44A4A;
+         font-weight: bold;
+         line-height: 3;
+      }
+
+      .glossario li:not(:last-child) a {
+         padding-right: 20px; 
+     }
+      
+     section, article {
+      border: 0.5px solid black ;
+    margin-top: 40px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px gray;
+     }
+     button{
+      max-width: 25%;
+      text-align: center;
+     }
+     main section h2::before{
+      content: "__";
+      color: yellowgreen;
+
+     }
+     .sfondo{
+      background-color: rgb(221, 218, 43);
+     }
+
+   .ricetta::after{
+      content:"   NEW";
+      display: inline-block;
+      padding: 2px 8px;
+      margin-left: 12px;
+      background-color: red;
+      border-radius: 3px;
+      font-size: 0.75rem;
+      color: white;
+   }
